@@ -65,32 +65,45 @@ UI Prototype: [Figma Prototype](https://www.figma.com/proto/BozJPPAd1uH1v4sk9bK7
 
 Our prototype demonstrates the main user flow, from completing exercise quests to earning rewards and customising a personal room.
 
-### Key Screens
+<h4 align="center">Room Screen</h4>
 
-<table>
-  <tr>
-    <td align="center">
-      <h4>Room Screen</h4>
-      <img src="images/1-room.png" alt="Room Screen" width="220">
-      <p>The main room screen shows the user's personal space and provides access to room customisation.</p>
-    </td>
-    <td align="center">
-      <h4>Gacha Screen</h4>
-      <img src="images/2-gacha.png" alt="Gacha Screen" width="220">
-      <p>Users spend tickets to perform gacha pulls and unlock furniture items.</p>
-    </td>
-    <td align="center">
-      <h4>Quests Screen</h4>
-      <img src="images/3-quests.png" alt="Quests Screen" width="220">
-      <p>Users can view and complete exercise quests to earn tickets and other rewards.</p>
-    </td>
-    <td align="center">
-      <h4>Edit Room Screen</h4>
-      <img src="images/4-edit-room.png" alt="Edit Room Screen" width="220">
-      <p>Users can select, move, rotate, store, and place collected furniture to customise their room.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/1-room.png" alt="Room Screen" width="300">
+</p>
+
+<p align="center">
+  The main room screen shows the user's personal space and provides access to room customisation.
+</p>
+
+<h4 align="center">Gacha Screen</h4>
+
+<p align="center">
+  <img src="images/2-gacha.png" alt="Gacha Screen" width="300">
+</p>
+
+<p align="center">
+  Users spend tickets to perform gacha pulls and unlock furniture items.
+</p>
+
+<h4 align="center">Quests Screen</h4>
+
+<p align="center">
+  <img src="images/3-quests.png" alt="Quests Screen" width="300">
+</p>
+
+<p align="center">
+  Users can view and complete exercise quests to earn tickets and other rewards.
+</p>
+
+<h4 align="center">Edit Room Screen</h4>
+
+<p align="center">
+  <img src="images/4-edit-room.png" alt="Edit Room Screen" width="300">
+</p>
+
+<p align="center">
+  Users can select, move, rotate, store, and place collected furniture to customise their room.
+</p>
 
 ## 4. What Makes It Different
 
