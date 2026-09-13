@@ -1,4 +1,4 @@
-# [Project Name] by First Timer
+# ReViVe by First Timer
 
 **Team:** Amir Danish bin Bakri, Muhammad Firdaus bin Jaafar, Muhammad Naqib bin Zull Azri 
 
@@ -61,11 +61,38 @@ We then introduced a gacha reward system where users earn tickets by completing 
 
 ## 3. Design & Prototype
 
-**UI Prototype:** [Public Link]
+## 3. Design & Prototype
 
-Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
+UI Prototype: [Figma Prototype](PASTE_YOUR_FIGMA_PUBLIC_LINK_HERE)
 
-We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction.
+Our prototype demonstrates the main user flow, from completing exercise quests to earning rewards and customising a personal room.
+
+### Key Screens
+
+#### Home / Quest Screen
+![Home Screen](images/home-screen.png)
+
+Users can view available exercise quests and select an activity to begin.
+
+#### Exercise Detection Screen
+![Exercise Detection](images/exercise-detection.png)
+
+The app uses camera detection or motion sensors to track the user's movement while completing an exercise.
+
+#### Gacha Screen
+![Gacha Screen](images/gacha-screen.png)
+
+After completing quests and earning tickets, users can spend their tickets on gacha pulls to unlock furniture and decorations.
+
+#### Room Customisation Screen
+![Room Customisation](images/room-customisation.png)
+
+Users can place collected furniture inside their personal virtual room and customise it based on their preferences.
+
+#### Inventory Screen
+![Inventory Screen](images/inventory-screen.png)
+
+Users can view and manage the furniture and decorations they have collected before placing them in their room.
 
 ## 4. What Makes It Different
 
