@@ -131,6 +131,16 @@ Our main twist is combining **exercise quests, camera detection, motion sensor t
 | **Figma** | UI/UX design | Used to design and prototype the application before development. |
 | **Expo / EAS** | Testing and deployment | Makes it easier to test the application on physical mobile devices. |
 
+### System Architecture Diagram
+
+<p align="center">
+  <img src="images/system-architecture.png" alt="System Architecture Diagram" width="700">
+</p>
+
+The mobile application is built using **React Native and Expo** and handles the main user interactions such as exercise quests, rewards, gacha, inventory and room customisation.
+
+The application connects to **Supabase** for authentication and database storage. The device camera and motion sensors provide exercise-related input, while Expo services are used for testing and deployment.
+
 ### Build Plan & Scope
 
 During the building phase, we plan to focus on the main gameplay loop:
@@ -141,7 +151,7 @@ During the building phase, we plan to focus on the main gameplay loop:
 4. **Gacha System** – Allow users to spend tickets to receive random furniture items.
 5. **Inventory** – Store and display collected furniture.
 6. **Room Customisation** – Allow users to place and manage furniture inside their room.
-7. **Backend Storage** – Save user progress, tickets and collected furniture.
+7. **Backend Storage** – Save user progress, tickets and collected furniture using Supabase.
 
 For the hackathon prototype, we will focus on making the full **exercise → reward → gacha → furniture → room customisation** flow functional first.
 
