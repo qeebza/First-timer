@@ -119,13 +119,42 @@ Our main twist is combining **exercise quests, camera detection, motion sensor t
 
 ## 5. Technical Architecture & Feasibility
 
-### Tech stack
+### Tech Stack
 
-Tell us your frontend, backend, database, APIs and services, as well as how and where you will be hosting. For each, try to tell us why you chose that technology, and what constraints you expect to face (For example, you chose Supabase because it’s free but you’ll still need a proxy).
+| Technology | Purpose | Why we chose it / Constraints |
+|---|---|---|
+| **React Native + Expo** | Mobile frontend | Allows us to build one mobile application quickly for both Android and iOS. |
+| **Expo Camera** | Camera-based exercise detection | Provides access to the device camera for selected exercise detection. Camera accuracy may depend on lighting and device performance. |
+| **Expo Sensors** | Motion sensor integration | Allows us to access device motion sensors such as the accelerometer and gyroscope. |
+| **Supabase** | Backend and database | Stores user data, tickets, furniture, quests and inventory. It is quick to set up and suitable for a prototype. |
+| **Supabase Auth** | User authentication | Provides a simple way to manage user accounts and login. |
+| **Figma** | UI/UX design | Used to design and prototype the application before development. |
+| **Expo / EAS** | App testing and deployment | Makes it easier to test the application on physical mobile devices. |
 
-### System architecture diagram
+### System Architecture Diagram
 
-*Optional, if you feel it would help the reviewers understand your architecture better.*
+```mermaid
+flowchart TD
+    A[Mobile App] --> B[Exercise Quests]
+
+    B --> C[Camera Detection]
+    B --> D[Motion Sensors]
+
+    C --> E[Quest Completion]
+    D --> E
+
+    E --> F[Ticket Reward]
+
+    F --> G[Gacha System]
+    G --> H[Furniture Item]
+
+    H --> I[Inventory]
+    I --> J[Room Customisation]
+
+    A --> K[Supabase]
+    K --> L[User Data]
+    K --> M[Quest Data]
+    K --> N[Inventory & Furniture]
 
 ### Build plan & scope
 
