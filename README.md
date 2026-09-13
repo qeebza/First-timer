@@ -12,24 +12,25 @@
 
 ### The Problem
 
-Burnout is becoming increasingly common among students and young adults due to academic pressure, long screen time, sedentary routines, and difficulty maintaining healthy habits. Although exercise, stretching, and regular recovery breaks can help support wellbeing, many people struggle to stay consistent because these activities often feel like another task rather than something enjoyable.
+Burnout is becoming increasingly common among students and young adults due to academic pressure, long screen time, sedentary routines, and difficulty maintaining healthy habits. Although exercise and regular movement can help support wellbeing, many people struggle to stay consistent because exercise can feel repetitive or like another task to complete.
 
-The main stakeholders are students and young adults who experience stress, fatigue, or difficulty maintaining healthy routines. Other stakeholders may include educational institutions, wellness communities, and organisations that want to encourage healthier daily habits.
+The main stakeholders are students and young adults who experience stress, fatigue, or difficulty maintaining active routines. Other stakeholders may include educational institutions and wellness communities that want to encourage healthier habits.
 
-Existing apps such as **Habitica** and **Finch** already use gamification to encourage positive habits. Habitica turns tasks into an RPG-style progression system, while Finch uses virtual-pet interactions to motivate self-care. However, these applications are not specifically centred around combining physical wellness activities with a collectible room-building experience. This leaves an opportunity to make wellness activities feel more rewarding, visual, and engaging through progression that users can directly see in their own virtual space.
+Existing apps such as **Habitica** and **Finch** use gamification to encourage positive habits. However, they are not mainly focused on combining physical exercise tracking with camera detection, motion sensors, collectible furniture, and room customisation.
 
 ### Our Solution
 
-**Wellness Room** is a gamified wellness application designed to encourage users to complete small, manageable wellness activities such as movement, stretching, and recovery breaks. Instead of treating these activities as chores, the application rewards users with tickets that can be used for gacha pulls to obtain furniture and decorations. Users can then use these items to gradually build and personalise their own virtual wellness room. This creates a simple reward loop that connects real-world wellness activities with visible in-game progress.
+**Wellness Room** is a gamified exercise application that encourages users to complete exercise quests and turn physical activity into in-game progress. Camera detection and motion sensor integration help track selected exercises and body movement. By completing quests, users earn tickets that can be used for gacha pulls to collect furniture and decorations. These items can then be stored, managed, and used to customise a personal virtual room.
 
 ### Core Features
 
-- **Wellness Quests** – Users complete movement, stretching, and recovery activities.
-- **Ticket Reward System** – Completing a wellness quest rewards the user with a ticket.
-- **Gacha System** – Tickets can be spent on gacha pulls to unlock furniture and decorative items.
-- **Room Customisation** – Users can place unlocked items inside their personal virtual room.
-- **Inventory System** – Furniture and decorations can be stored and managed before being placed.
-- **Progression Through Collection** – Users gradually build their room over time as they continue completing wellness activities.
+- **Exercise Quests** – Users complete different exercise activities to earn rewards.
+- **Camera Detection** – Detects body movement during selected exercises.
+- **Motion Sensor Integration** – Uses device sensors to track physical movement during exercise.
+- **Ticket Reward System** – Completing exercise quests rewards users with tickets.
+- **Gacha System** – Tickets can be used to pull furniture and decorative items.
+- **Room Customisation** – Collected furniture can be placed inside a personal virtual room.
+- **Inventory System** – Users can store and manage furniture before placing it.
 
 ## 2. Ideation & Process
 
@@ -37,11 +38,18 @@ Existing apps such as **Habitica** and **Finch** already use gamification to enc
 
 Table of every distinct idea generated, with why each was kept or dropped. Order it so that chosen ideas are listed first.
 
-| Idea | Why it was dropped / kept |
-|---|---|
-| A (Chosen) | |
-| B (Chosen) | |
-| C | |
+| Idea | Why it was dropped / kept | 
+|---|---| 
+| **Exercise Quests (Chosen)** | Kept because users complete exercise quests to earn rewards. | 
+| **Camera Detection (Chosen)** | Kept because it can detect body movements during selected exercises. |
+| **Motion Sensor Integration (Chosen)** | Kept because it helps track real-world movement during exercise. |
+| **Room Customisation (Chosen)** | Kept because it gives users a visual sense of progress and personalisation. | 
+| **Gacha System (Chosen)** | Kept because it makes unlocking furniture more exciting. | 
+| **Ticket System (Chosen)** | Kept because tickets are used to perform gacha pulls. |  
+| **Character Customisation** | Dropped because we decided to focus on room customisation instead. | 
+| **To-Do List System** | Dropped because we decided to focus more on exercise and wellness quests. | 
+| **Energy Cost for To-Do Tasks** | Dropped because the energy cost system made the to-do list more complicated. | 
+| **User Energy Bar** | Dropped together with the to-do list system because it was no longer needed. | 
 
 ### 2.2 Ideation Boards
 
@@ -50,14 +58,6 @@ Our idea started from the problem of everyday burnout and the question of how we
 We then introduced a gacha reward system where users earn tickets by completing wellness quests such as movement, stretching, and recovery activities. This eventually became our final loop: complete wellness activities, earn tickets, unlock furniture, and gradually build a personal restorative space.
 
 ![ideation-board-flowchart](images/ideation-board-flowchart.png)
-
-### 2.3 Mentor Consultation
-
-| Date | Mentor | Feedback Received | What Was Changed |
-|---|---|---|---|
-| | | | |
-
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor’s advice, it will still count as engaging with it.
 
 ## 3. Design & Prototype
 
@@ -69,9 +69,29 @@ We recommend you embed or link 4–8 key screens as images, with a caption on ea
 
 ## 4. What Makes It Different
 
-List out novel features and explain briefly why each is original or what the twist is.
+### Gamified Exercise Rewards
+Users earn tickets by completing exercise quests and use them for gacha pulls instead of only tracking exercise progress.
 
-You can have a comparison table to compare with existing solutions named in section 1, but this is completely optional.
+### Camera Detection
+The camera can be used to detect the user's body movement during selected exercises, helping the system verify that the activity is being performed.
+
+### Motion Sensor Integration
+Motion sensors can track movement and activity during exercise, allowing the app to connect real-world physical movement with in-game progress.
+
+### Gacha Furniture Collection
+Users can unlock furniture of different rarities through the gacha system, making rewards more exciting and unpredictable.
+
+### Room Customisation
+The furniture collected from gacha pulls can be placed inside the user's own virtual room, making progress more visual and personal.
+
+### Furniture Rarity Points
+Each furniture item gives a different number of points based on its rarity, giving rare items more value.
+
+### Leaderboard
+Users are ranked based on the total points from their furniture collection, adding a competitive element to the app.
+
+### Our Twist
+Our main twist is combining **exercise quests, camera detection, motion sensor tracking, gacha rewards, furniture collection, room customisation, and leaderboard competition** in one system. Real-world physical activity directly contributes to the user's virtual progress and room collection.
 
 ## 5. Technical Architecture & Feasibility
 
