@@ -1,8 +1,8 @@
-# [Project Name] by [Team Name]
+# [Project Name] by First Timer
 
-**Team:** [Member 1], [Member 2], [Member 3], [Member 4]
+**Team:** Amir Danish bin Bakri, Muhammad Firdaus bin Jaafar, Muhammad Naqib bin Zull Azri 
 
-**Problem Statement:** [Stress & Workload Manager / Travel Planner]
+**Problem Statement:** Stress & Workload Manager
 
 **Video Presentation:** [Unlisted YouTube Link]
 
@@ -28,13 +28,11 @@ Table of every distinct idea generated, with why each was kept or dropped. Order
 
 ### 2.2 Ideation Boards
 
-You can embed the images directly (recommended) or have links to your ideation board. Don’t feel forced to add as many diagrams as you can for “more marks”. The reviewers want to know how your team put your minds together to create your solution. It can be messy, with a lot of small dropped ideas. Add 1–2 lines under each explaining what it shows.
+Our idea started from the problem of everyday burnout and the question of how we could make exercise feel less like another obligation. We explored gamification through level-up systems and character customization, but after researching similar applications, we dropped the character customization idea and shifted towards building and decorating a personal wellness room.
 
-You can embed images in Markdown like so:
+We then introduced a gacha reward system where users earn tickets by completing wellness quests such as movement, stretching, and recovery activities. This eventually became our final loop: complete wellness activities, earn tickets, unlock furniture, and gradually build a personal restorative space.
 
-```md
-![Mindmap](mindmap.png)
-```
+![ideation-board-flowchart](images/ideation-board-flowchart.png)
 
 ### 2.3 Mentor Consultation
 
