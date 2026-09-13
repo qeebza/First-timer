@@ -124,38 +124,25 @@ Our main twist is combining **exercise quests, camera detection, motion sensor t
 | Technology | Purpose | Why we chose it / Constraints |
 |---|---|---|
 | **React Native + Expo** | Mobile frontend | Allows us to build one mobile application quickly for both Android and iOS. |
-| **Expo Camera** | Camera-based exercise detection | Provides access to the device camera for selected exercise detection. Camera accuracy may depend on lighting and device performance. |
+| **Expo Camera** | Camera-based exercise detection | Provides access to the device camera for selected exercise detection. Accuracy may depend on lighting and device performance. |
 | **Expo Sensors** | Motion sensor integration | Allows us to access device motion sensors such as the accelerometer and gyroscope. |
-| **Supabase** | Backend and database | Stores user data, tickets, furniture, quests and inventory. It is quick to set up and suitable for a prototype. |
+| **Supabase** | Backend and database | Stores user data, tickets, quests, furniture and inventory. It is quick to set up and suitable for a prototype. |
 | **Supabase Auth** | User authentication | Provides a simple way to manage user accounts and login. |
 | **Figma** | UI/UX design | Used to design and prototype the application before development. |
-| **Expo / EAS** | App testing and deployment | Makes it easier to test the application on physical mobile devices. |
+| **Expo / EAS** | Testing and deployment | Makes it easier to test the application on physical mobile devices. |
 
-### System Architecture Diagram
+### Build Plan & Scope
 
-```mermaid
-flowchart TD
-    A[Mobile App] --> B[Exercise Quests]
+During the building phase, we plan to focus on the main gameplay loop:
 
-    B --> C[Camera Detection]
-    B --> D[Motion Sensors]
+1. **Exercise Quests** – Build a small set of exercise activities for users to complete.
+2. **Exercise Detection** – Use camera detection and motion sensors for selected exercises.
+3. **Ticket Rewards** – Award tickets after users complete quests.
+4. **Gacha System** – Allow users to spend tickets to receive random furniture items.
+5. **Inventory** – Store and display collected furniture.
+6. **Room Customisation** – Allow users to place and manage furniture inside their room.
+7. **Backend Storage** – Save user progress, tickets and collected furniture.
 
-    C --> E[Quest Completion]
-    D --> E
+For the hackathon prototype, we will focus on making the full **exercise → reward → gacha → furniture → room customisation** flow functional first.
 
-    E --> F[Ticket Reward]
-
-    F --> G[Gacha System]
-    G --> H[Furniture Item]
-
-    H --> I[Inventory]
-    I --> J[Room Customisation]
-
-    A --> K[Supabase]
-    K --> L[User Data]
-    K --> M[Quest Data]
-    K --> N[Inventory & Furniture]
-
-### Build plan & scope
-
-Explicitly tell the reviewer what you plan to build during the building phase. Narrow scope will read as realistic and feasible, not as a lack of ambition.
+More advanced features can be expanded later after the core system is working.
