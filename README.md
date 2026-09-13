@@ -85,7 +85,7 @@ Users spend tickets to perform gacha pulls and unlock furniture items.
 Users can view and complete exercise quests to earn rewards.
 
 #### Edit Room Screen
-![Edit Room Screen](images/6-edit-room.png)
+![Edit Room Screen](images/4-edit-room.png)
 
 Users can place, move, rotate, or store collected furniture to customise their room.
 
