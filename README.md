@@ -36,28 +36,34 @@ Our application is a gamified exercise experience that encourages users to compl
 
 ### 2.1 Ideas We Considered
 
-Table of every distinct idea generated, with why each was kept or dropped. Order it so that chosen ideas are listed first.
+The table below summarises the main ideas explored during our ideation process and explains why each idea was either kept, refined, or dropped.
 
-| Idea | Why it was dropped / kept | 
-|---|---| 
-| **Exercise Quests (Chosen)** | Kept because users complete exercise quests to earn rewards. | 
-| **Camera Detection (Chosen)** | Kept because it can detect body movements during selected exercises. |
-| **Motion Sensor Integration (Chosen)** | Kept because it helps track real-world movement during exercise. |
-| **Room Customisation (Chosen)** | Kept because it gives users a visual sense of progress and personalisation. | 
-| **Gacha System (Chosen)** | Kept because it makes unlocking furniture more exciting. | 
-| **Ticket System (Chosen)** | Kept because tickets are used to perform gacha pulls. |  
-| **Character Customisation** | Dropped because we decided to focus on room customisation instead. | 
-| **To-Do List System** | Dropped because we decided to focus more on exercise and wellness quests. | 
-| **Energy Cost for To-Do Tasks** | Dropped because the energy cost system made the to-do list more complicated. | 
-| **User Energy Bar** | Dropped together with the to-do list system because it was no longer needed. | 
+| Idea | Why it was dropped / kept |
+|---|---|
+| **Exercise Quests (Chosen)** | Kept because they provide the main activity users complete to earn rewards. |
+| **Camera Detection (Chosen)** | Kept because it can detect body movement during selected exercises. |
+| **Motion Sensor Integration (Chosen)** | Kept because it helps track real-world movement using device sensors. |
+| **Room Customisation (Chosen)** | Kept because it gives users a visual sense of progress and personalisation. |
+| **Gacha System (Chosen)** | Kept because it makes unlocking furniture more engaging and rewarding. |
+| **Ticket System (Chosen)** | Kept because tickets provide a simple reward currency for gacha pulls. |
+| **Character Customisation** | Dropped because we decided to focus on room customisation instead. |
+| **To-Do List System** | Dropped because we wanted the application to focus more directly on exercise and wellness activities. |
+| **Energy Cost for To-Do Tasks** | Dropped because it added unnecessary complexity to the to-do list system. |
+| **User Energy Bar** | Dropped together with the to-do list system because it was no longer needed. |
 
-### 2.2 Ideation Boards
+### 2.2 Ideation Board
 
-Our idea started from the problem of everyday burnout and the question of how we could make exercise feel less like another obligation. We explored gamification through level-up systems and character customization, but after researching similar applications, we dropped the character customization idea and shifted towards building and decorating a personal wellness room.
+Our idea began with the problem of everyday burnout and the question of how we could make exercise feel more enjoyable and less like another obligation. We initially explored gamification ideas such as level-up systems and character customisation. After researching similar applications, we decided to drop character customisation and instead focus on creating a personal room that users could gradually build and customise.
 
-We then introduced a gacha reward system where users earn tickets by completing wellness quests such as movement, stretching, and recovery activities. This eventually became our final loop: complete wellness activities, earn tickets, unlock furniture, and gradually build a personal restorative space.
+We then developed the reward system further by introducing exercise quests, tickets, gacha pulls, and collectible furniture. This led to our final gameplay loop: **complete exercise activities → earn tickets → perform gacha pulls → collect furniture → customise a personal room**.
 
-<img src="images/ideation-board-flowchart.png" alt="Ideation Board Flowchart" width="600">
+<p align="center">
+  <img src="images/ideation-board-flowchart.png" alt="Ideation Board Flowchart" width="600">
+</p>
+
+<p align="center">
+  <em>The diagram shows how our concept evolved from addressing burnout to developing the final exercise, reward, gacha, and room-customisation system.</em>
+</p>
 
 ## 3. Design & Prototype
 
