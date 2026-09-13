@@ -61,7 +61,7 @@ We then introduced a gacha reward system where users earn tickets by completing 
 
 ## 3. Design & Prototype
 
-UI Prototype: [https://www.figma.com/proto/BozJPPAd1uH1v4sk9bK72Q/Revive?node-id=18-2&p=f&t=58dcYpsMvi1uJXcu-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A2]
+UI Prototype: [Figma Prototype](https://www.figma.com/proto/BozJPPAd1uH1v4sk9bK72Q/Revive?node-id=18-2&p=f&t=58dcYpsMvi1uJXcu-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A2)
 
 Our prototype demonstrates the main user flow, from completing exercise quests to earning rewards and customising a personal room.
 
