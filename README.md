@@ -69,27 +69,43 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
 
 #### Room Screen
 
-<img src="images/1-room.png" alt="Room Screen" width="300">
+<p align="center">
+  <img src="images/1-room.png" alt="Room Screen" width="300">
+</p>
 
-The main room screen shows the user's personal space and provides access to room customisation.
+<p align="center">
+  The main room screen shows the user's personal space and provides access to room customisation.
+</p>
 
 #### Gacha Screen
 
-<img src="images/2-gacha.png" alt="Gacha Screen" width="300">
+<p align="center">
+  <img src="images/2-gacha.png" alt="Gacha Screen" width="300">
+</p>
 
-Users spend tickets to perform gacha pulls and unlock furniture items.
+<p align="center">
+  Users spend tickets to perform gacha pulls and unlock furniture items.
+</p>
 
 #### Quests Screen
 
-<img src="images/3-quests.png" alt="Quests Screen" width="300">
+<p align="center">
+  <img src="images/3-quests.png" alt="Quests Screen" width="300">
+</p>
 
-Users can view and complete exercise quests to earn tickets and other rewards.
+<p align="center">
+  Users can view and complete exercise quests to earn tickets and other rewards.
+</p>
 
 #### Edit Room Screen
 
-<img src="images/4-edit-room.png" alt="Edit Room Screen" width="300">
+<p align="center">
+  <img src="images/4-edit-room.png" alt="Edit Room Screen" width="300">
+</p>
 
-Users can select, move, rotate, store, and place collected furniture to customise their room.
+<p align="center">
+  Users can select, move, rotate, store, and place collected furniture to customise their room.
+</p>
 
 ## 4. What Makes It Different
 
