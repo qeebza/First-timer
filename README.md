@@ -105,29 +105,23 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
 
 ## 4. What Makes It Different
 
-### Gamified Exercise Rewards
-Users earn tickets by completing exercise quests and use them for gacha pulls instead of only tracking exercise progress.
+Our application combines real-world exercise tracking with game progression, collectible rewards, and room customisation.
 
-### Camera Detection
-The camera can be used to detect the user's body movement during selected exercises, helping the system verify that the activity is being performed.
-
-### Motion Sensor Integration
-Motion sensors can track movement and activity during exercise, allowing the app to connect real-world physical movement with in-game progress.
-
-### Gacha Furniture Collection
-Users can unlock furniture of different rarities through the gacha system, making rewards more exciting and unpredictable.
-
-### Room Customisation
-The furniture collected from gacha pulls can be placed inside the user's own virtual room, making progress more visual and personal.
-
-### Furniture Rarity Points
-Each furniture item gives a different number of points based on its rarity, giving rare items more value.
-
-### Leaderboard
-Users are ranked based on the total points from their furniture collection, adding a competitive element to the app.
+| Feature | What makes it different |
+|---|---|
+| **Exercise-to-Reward System** | Completing exercise quests directly earns tickets that can be used for gacha pulls. |
+| **Camera & Motion Tracking** | Camera detection and device sensors help track physical movement during supported exercises. |
+| **Gacha Furniture Rewards** | Instead of only earning points or levels, users unlock collectible furniture of different rarities. |
+| **Room Customisation** | Collected furniture can be placed in a personal virtual room, turning exercise progress into something users can see and customise. |
+| **Rarity Points & Leaderboard** | Furniture gives points based on rarity, allowing users to compare their collection progress with others. |
 
 ### Our Twist
-Our main twist is combining **exercise quests, camera detection, motion sensor tracking, gacha rewards, furniture collection, room customisation, and leaderboard competition** in one system. Real-world physical activity directly contributes to the user's virtual progress and room collection.
+
+The main difference is how these features work together:
+
+**Exercise → Earn Tickets → Gacha Pull → Collect Furniture → Customise Room → Build Progress**
+
+Real-world physical activity directly contributes to the user's virtual collection and room progression.
 
 ## 5. Technical Architecture & Feasibility
 
