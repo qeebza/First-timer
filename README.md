@@ -75,6 +75,7 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
   The main room screen shows the user's personal space and provides access to room customisation.
 </p>
 
+
 <h4 align="center">Gacha Screen</h4>
 
 <p align="center">
@@ -85,6 +86,7 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
   Users spend tickets to perform gacha pulls and unlock furniture items.
 </p>
 
+
 <h4 align="center">Quests Screen</h4>
 
 <p align="center">
@@ -94,6 +96,7 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
 <p align="center">
   Users can view and complete exercise quests to earn tickets and other rewards.
 </p>
+
 
 <h4 align="center">Edit Room Screen</h4>
 
