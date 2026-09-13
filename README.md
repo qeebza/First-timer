@@ -61,35 +61,35 @@ We then introduced a gacha reward system where users earn tickets by completing 
 
 ## 3. Design & Prototype
 
-## 3. Design & Prototype
-
 UI Prototype: [Figma Prototype](PASTE_YOUR_FIGMA_PUBLIC_LINK_HERE)
 
 Our prototype demonstrates the main user flow, from completing exercise quests to earning rewards and customising a personal room.
 
 ### Key Screens
 
-#### Room & Gacha
+#### Room Screen
 
-<p align="center">
-  <img src="images/1-room.png" alt="Room Screen" width="300">
-  <img src="images/2-gacha.png" alt="Gacha Screen" width="300">
-</p>
+<img src="images/1-room.png" alt="Room Screen" width="300">
 
-**Room:** Displays the user's personal space and provides access to room customisation.  
-**Gacha:** Users spend tickets to perform gacha pulls and unlock furniture items.
+The main room screen shows the user's personal space and provides access to room customisation.
 
-#### Quests & Room Customisation
+#### Gacha Screen
 
-<p align="center">
-  <img src="images/3-quests.png" alt="Quests Screen" width="300">
-  <img src="images/4-edit-room.png" alt="Edit Room Screen" width="300">
-</p>
+<img src="images/2-gacha.png" alt="Gacha Screen" width="300">
 
-**Quests:** Users complete exercise quests to earn tickets and other rewards.  
-**Room Customisation:** Users can select, move, rotate, store, and place collected furniture.
+Users spend tickets to perform gacha pulls and unlock furniture items.
 
-Users can place, move, rotate, or store collected furniture to customise their room.
+#### Quests Screen
+
+<img src="images/3-quests.png" alt="Quests Screen" width="300">
+
+Users can view and complete exercise quests to earn tickets and other rewards.
+
+#### Edit Room Screen
+
+<img src="images/4-edit-room.png" alt="Edit Room Screen" width="300">
+
+Users can select, move, rotate, store, and place collected furniture to customise their room.
 
 ## 4. What Makes It Different
 
