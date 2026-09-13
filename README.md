@@ -20,7 +20,7 @@ Existing apps such as **Habitica** and **Finch** use gamification to encourage p
 
 ### Our Solution
 
-**Wellness Room** is a gamified exercise application that encourages users to complete exercise quests and turn physical activity into in-game progress. Camera detection and motion sensor integration help track selected exercises and body movement. By completing quests, users earn tickets that can be used for gacha pulls to collect furniture and decorations. These items can then be stored, managed, and used to customise a personal virtual room.
+Our application is a gamified exercise experience that encourages users to complete exercise quests and turn physical activity into in-game progress. Camera detection and motion sensor integration help track selected exercises and body movement. By completing quests, users earn tickets that can be used for gacha pulls to collect furniture and decorations. These items can then be stored, managed, and used to customise a personal virtual room.
 
 ### Core Features
 
