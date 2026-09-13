@@ -57,7 +57,7 @@ Our idea started from the problem of everyday burnout and the question of how we
 
 We then introduced a gacha reward system where users earn tickets by completing wellness quests such as movement, stretching, and recovery activities. This eventually became our final loop: complete wellness activities, earn tickets, unlock furniture, and gradually build a personal restorative space.
 
-<img src="images/ideation-board-flowchart.png" alt="Ideation Board Flowchart" width="500">
+<img src="images/ideation-board-flowchart.png" alt="Ideation Board Flowchart" width="600">
 
 ## 3. Design & Prototype
 
