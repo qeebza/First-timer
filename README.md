@@ -69,30 +69,25 @@ Our prototype demonstrates the main user flow, from completing exercise quests t
 
 ### Key Screens
 
-#### Home / Quest Screen
-![Home Screen](images/home-screen.png)
+#### Room Screen
+![Room Screen](images/1-room.png)
 
-Users can view available exercise quests and select an activity to begin.
-
-#### Exercise Detection Screen
-![Exercise Detection](images/exercise-detection.png)
-
-The app uses camera detection or motion sensors to track the user's movement while completing an exercise.
+The main room screen shows the user's personal space and access to room customisation.
 
 #### Gacha Screen
-![Gacha Screen](images/gacha-screen.png)
+![Gacha Screen](images/2-gacha.png)
 
-After completing quests and earning tickets, users can spend their tickets on gacha pulls to unlock furniture and decorations.
+Users spend tickets to perform gacha pulls and unlock furniture items.
 
-#### Room Customisation Screen
-![Room Customisation](images/room-customisation.png)
+#### Quests Screen
+![Quests Screen](images/3-quests.png)
 
-Users can place collected furniture inside their personal virtual room and customise it based on their preferences.
+Users can view and complete exercise quests to earn rewards.
 
-#### Inventory Screen
-![Inventory Screen](images/inventory-screen.png)
+#### Edit Room Screen
+![Edit Room Screen](images/6-edit-room.png)
 
-Users can view and manage the furniture and decorations they have collected before placing them in their room.
+Users can place, move, rotate, or store collected furniture to customise their room.
 
 ## 4. What Makes It Different
 
